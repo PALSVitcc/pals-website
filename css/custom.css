@@ -1,13 +1,13 @@
 .img_l{
-	height : 33rem;
-	width : 33rem;
-	margin : 2em 5em 2em 1em;
+	height : 35rem;
+	width : 35rem;
+	padding : 2em 3em 2em 1em;
 }
 
 .img_r{
-	height : 33rem;
-	width : 33rem;
-	margin : 2em 1em 2em 5em;
+	height : 35rem;
+	width : 35rem;
+	padding : 2em 1em 2em 3em;
 }
 .half
 {
@@ -19,9 +19,10 @@
 {
 	width:50%
 }
-@media(max-width:991.98px)
+@media(max-width:900px)
 {
-	.half .img,
+	.half .img_l,
+	.half .img_r,
 	.half .half-content
 	{
 		width:100%
@@ -33,11 +34,15 @@
 	background-position:center center;
 	background-repeat:no-repeat
 }
-@media(max-width:991.98px)
+@media(max-width:900px)
 {
-	.half .img
+	.half .img_l
 	{
-		height:200px
+		padding : 2em 1em 2em 1em;
+	}
+	.half .img_r
+	{
+		padding : 2em 1em 2em 1em;
 	}
 }
 .half .half-content
