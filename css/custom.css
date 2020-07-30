@@ -1,0 +1,62 @@
+nav {
+	font-family: Oswald;
+	font-size: 20px;
+	margin-top: 0.7em;
+}
+
+#PALS {
+	font-size: 30px;
+}
+
+nav li {
+	margin: 0 20px;
+}
+
+nav li a {
+	font-weight: 500;
+}
+
+#red-hover:hover {
+	color: #ff3838;
+	transition: all 0.4s;	
+	transform: scale(1.1)
+}
+
+.big-img {
+	border: 1px solid black;
+	margin-top: 6em;
+	height: 70vh;
+	width: 80vw;
+	background-color: rgba(1,1,1,0.1);
+}
+
+/*.main-img {
+	height: 70vh;
+	width: 80vw;
+}*/
+
+.icons {
+	margin-top: 4em;
+}
+
+.col-6 {
+	/*border: 1px solid black;*/
+}
+
+.row p {
+	position: relative;
+	top: 17%;
+}
+
+.mid-txt {
+	margin-top: 8%;
+}
+
+.row h3 {
+	position: relative;
+	top: 20%;
+}
+
+i {
+	font-size: 70px;
+}
