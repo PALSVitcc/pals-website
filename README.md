@@ -1,1 +1,3 @@
-# pals-wesite
+# Pals-website
+
+Preview: https://palsvit.netlify.app/
