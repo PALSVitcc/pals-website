@@ -4,7 +4,7 @@
 .nav-item {
 	padding: 1em;
 }
-.nav-item_link {
+.nav-item .p_link {
 	font-size: 20px;
 	letter-spacing: 0.05em;
 }
@@ -39,7 +39,7 @@
 	font-family: roboto mono,monospace;
 }
 
-.testimonial-img {
+.testimonial .p_img {
 	width: 80px;
 	border-radius: 50%;
 	margin-bottom: 30px;
