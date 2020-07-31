@@ -1,62 +1,113 @@
-nav {
-	font-family: Oswald;
+* {
+	line-height: 1.7;
+}
+
+.ft-head {
+	font-family: Oswald,sans-serif;
+}
+
+.ft-body {
+	font-family: roboto mono,monospace;
+}
+
+.nav-item {
+	padding: 1em;
+}
+.nav-item .p_link {
 	font-size: 20px;
-	margin-top: 0.7em;
+	letter-spacing: 0.05em;
 }
-
-#PALS {
-	font-size: 30px;
+.contt {
+	display: flex;
+	color: #999;
+	padding: 2em 1em;
 }
-
-nav li {
-	margin: 0 20px;
-}
-
-nav li a {
-	font-weight: 500;
-}
-
-#red-hover:hover {
-	color: #ff3838;
-	transition: all 0.4s;	
-	transform: scale(1.1)
+.contt_info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 40px;
+	font-family: roboto mono,monospace;
 }
 
 .big-img {
 	border: 1px solid black;
-	margin-top: 6em;
 	height: 70vh;
 	width: 80vw;
+	margin: 6em auto;
 	background-color: rgba(1,1,1,0.1);
 }
 
-/*.main-img {
-	height: 70vh;
-	width: 80vw;
-}*/
-
 .icons {
-	margin-top: 4em;
-}
-
-.col-6 {
-	/*border: 1px solid black;*/
-}
-
-.row p {
+	margin: 6em;
 	position: relative;
-	top: 17%;
+	right: 1em;
+}
+
+.mid-head {
+	font-size: 1.3em;
+	margin-top: 2em;
+	font-weight: 600;
+	margin-bottom: 1.3em;
 }
 
 .mid-txt {
-	margin-top: 8%;
+	font-weight: 600;
 }
 
-.row h3 {
-	position: relative;
-	top: 20%;
+.heading {
+	margin-bottom: 30px;
 }
 
-i {
+.contt_info > .text {
+	line-height: 1.7;
+    font-weight: 800;
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 20px;
+    
+}
+
+.testimonial {
+	padding: 0 15px;
+	font-family: roboto mono,monospace;
+}
+
+.testimonial .p_img {
+	width: 80px;
+	border-radius: 50%;
+	margin-bottom: 30px;
+}
+
+.desig {
+	margin-bottom: 1rem;
+}
+
+.mid-icons {
 	font-size: 70px;
+}
+
+.overlay-txt {
+	/*border: 2px solid black;*/
+	letter-spacing: 1px;
+	position: relative;
+	left: 3em;
+	bottom: 6em;
+	color: black;
+	max-width: 30em;
+	background: rgba(255,255,255,0.5);
+	line-height: 10px;
+}
+
+.quote::before {
+	content: open-quote;
+	font-size: 3em;
+	transform: rotate(180deg);
+	position: absolute;
+	left: -0.5em;
+	top: -0.6em;
+}
+
+.lower {
+	margin-bottom: 10em;
 }
