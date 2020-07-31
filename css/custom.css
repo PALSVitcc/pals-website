@@ -11,6 +11,7 @@
 }
 .footer{
 	padding-top : 3em;
+	padding-bottom : 3em;
 }
 .footer-column ul{
 	list-style : none;
@@ -21,4 +22,13 @@
 .footer-column a:hover{
 	color : black;
 	text-decoration : none;
+}
+.content p,
+.footer-column p,
+.footer-column li{
+	font-family: 'Roboto Mono', monospace;
+}
+.content h3,
+.footer-column h4{
+	font-family: 'Oswald',sans-serif;
 }
