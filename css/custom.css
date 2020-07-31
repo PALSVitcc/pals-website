@@ -33,7 +33,7 @@
 .big-img {
 	border: 1px solid black;
 	height: 70vh;
-	width: 80vw;
+	width: 100%;
 	margin: 6em auto;
 	background-color: rgba(1,1,1,0.1);
 }
