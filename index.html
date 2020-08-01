@@ -19,6 +19,12 @@
       href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto+Mono:wght@300&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css"
+    />
+    <link rel="stylesheet" href="css/Lightbox-Gallery.css" />
+    <link rel="stylesheet" href="css/Navigation-Clean.css" />
     <link rel="stylesheet" href="css/custom.css" />
 
     <title>PALS</title>
@@ -220,68 +226,56 @@
           </div>
         </div>
       </div>
-
-      <div class="gallery py-5" id="gallery">
-        <div class="container mt-5">
-          <h2 class="c_heading">Gallery</h2>
-        </div>
-        <div class="container my-5">
-          <div class="row">
-            <div class="col-lg-3 col-sm-6 px-3 my-2 gallery-col">
-              <img class="gallery-image" src="images/dog.4001.jpg" />
-              <div class="overlay"></div>
-              <div class="text">Dog 1</div>
+      
+      <div class="container">
+        <h2 class="p_heading">Gallery</h2>
+        <p class="text-left">
+          Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
+          Vestibulum nibh erat, pellentesque ut laoreet vitae.
+        </p>
+        <div class="photo-gallery">
+          <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/desk.jpg"
+                ><img class="img-fluid" src="images/desk.jpg"
+              /></a>
             </div>
-            <div class="col-lg-3 col-sm-6 px-3 my-2 gallery-col">
-              <img class="gallery-image" src="images/dog.4001.jpg" />
-              <div class="overlay"></div>
-              <div class="text">Dog 2</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/building.jpg"
+                ><img class="img-fluid" src="images/building.jpg"
+              /></a>
             </div>
-            <div class="col-lg-3 col-sm-6 px-3 my-2 gallery-col">
-              <img class="gallery-image" src="images/dog.4001.jpg" />
-              <div class="overlay"></div>
-              <div class="text">Dog 3</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/loft.jpg"
+                ><img class="img-fluid" src="images/loft.jpg"
+              /></a>
             </div>
-            <div class="col-lg-3 col-sm-6 px-3 my-2 gallery-col">
-              <img class="gallery-image" src="images/dog.4001.jpg" />
-              <div class="overlay"></div>
-              <div class="text">Dog 4</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/building.jpg"
+                ><img class="img-fluid" src="images/building.jpg"
+              /></a>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-3 col-sm-6 px-3 my-2 gallery-col">
-              <img class="gallery-image" src="images/dog.4001.jpg" />
-              <div class="overlay"></div>
-              <div class="text">Dog 5</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/loft.jpg"
+                ><img class="img-fluid" src="images/loft.jpg"
+              /></a>
             </div>
-            <div class="col-lg-3 col-sm-6 px-3 my-2 gallery-col">
-              <img class="gallery-image" src="images/dog.4001.jpg" />
-              <div class="overlay"></div>
-              <div class="text">Dog 6</div>
-            </div>
-            <div class="col-lg-3 col-sm-6 px-3 my-2 gallery-col">
-              <img class="gallery-image" src="images/dog.4001.jpg" />
-              <div class="overlay"></div>
-              <div class="text">Dog 7</div>
-            </div>
-            <div class="col-lg-3 col-sm-6 px-3 my-2 gallery-col">
-              <img class="gallery-image" src="images/dog.4001.jpg" />
-              <div class="overlay"></div>
-              <div class="text">Dog 8</div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/desk.jpg"
+                ><img class="img-fluid" src="images/desk.jpg"
+              /></a>
             </div>
           </div>
         </div>
       </div>
 
       <div class="container py-5" id="contact">
-        <div class="col-lg-8 col-12 mb-5">
-          <h2 class="c_heading">Get In Touch</h2>
-          <p class="mb-3">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe fuga
-            assumenda impedit, ab adipisci quae deserunt nostrum debitis nisi
-            facilis.
-          </p>
-        </div>
+        <h2 class="p_heading">Get In Touch</h2>
+        <p class="mb-3 text-left">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe fuga
+          assumenda impedit, ab adipisci quae deserunt nostrum debitis nisi
+          facilis.
+        </p>
         <div class="row container">
           <div class="col-lg-7 col-12">
             <div class="form-group">
@@ -384,25 +378,9 @@
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://kit.fontawesome.com/a21a405680.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

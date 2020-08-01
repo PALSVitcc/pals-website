@@ -121,44 +121,6 @@
   text-decoration: none;
 }
 
-.gallery .gallery-image {
-  height: auto;
-  width: 100%;
-  transition: 0.5s ease;
-}
-.gallery-col .overlay {
-  transition: 0.5s ease;
-  background-color: black;
-  position: absolute;
-  top: 0%;
-  bottom: 0%;
-  left: 8px;
-  right: 8px;
-  opacity: 0;
-  text-align: center;
-}
-.gallery-col .text {
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-.gallery-col:hover .gallery-image {
-  opacity: 0.3;
-  filter: blur(3px);
-}
-.gallery-col:hover .overlay {
-  background-color: black;
-  opacity: 0.3;
-  filter: blur(2px);
-}
-.gallery-col:hover .text {
-  opacity: 1;
-  color: white;
-}
-
 .send_msg {
   background-color: #000;
   border-color: #000;
@@ -173,4 +135,9 @@
 .p_input:focus {
   border-color: #000;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 4px rgba(0, 0, 0, 0.6);
+}
+
+.p_heading {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
 }
