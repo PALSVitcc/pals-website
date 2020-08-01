@@ -1,169 +1,168 @@
 @media (max-width: 768px) {
-	.overlay-txt {
-		width: 15em;
-	}
-	.quote {
-		font-size: 2em;
-	}
+  .overlay-txt {
+    width: 15em;
+  }
+  .quote {
+    font-size: 2em;
+  }
 }
 
 * {
-	line-height: 1.7;
+  line-height: 1.7;
 }
 
 .ft-head {
-	font-family: Oswald,sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 .ft-body {
-	font-family: roboto mono,monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .heading {
-	letter-spacing: 0.05em;
+  letter-spacing: 0.05em;
 }
 
 .nav-item .p_link {
-	font-size: 20px;
-	letter-spacing: 0.05em;
+  font-size: 20px;
+  letter-spacing: 0.05em;
 }
 .contt {
-	display: flex;
-	color: #999;
+  display: flex;
+  color: #999;
 }
 .contt_info {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .desig .ft-body {
-	font-weight: 900;
+  font-weight: 900;
 }
 
 .contt_info .ft-body {
-	font-weight: 900;
+  font-weight: 900;
 }
 
 .big-img {
-	border: 1px solid black;
-	height: 70vh;
-	width: 100%;
-	margin: 6em auto;
-	background-color: rgba(1,1,1,0.1);
+  border: 1px solid black;
+  height: 70vh;
+  width: 100%;
+  margin: 6em auto;
+  background-color: rgba(1, 1, 1, 0.1);
 }
 
 .mid-head {
-	font-size: 1.3em;
-	font-weight: 600;
+  font-size: 1.3em;
+  font-weight: 600;
 }
 
 .mid-txt {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 .contt_info > .text {
-	line-height: 1.7;
-    font-weight: 800;
-    font-size: 1rem;
-    color: #999;
+  line-height: 1.7;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #999;
 }
 
-
 .testimonial {
-	padding: 0 15px;
-	font-weight: 600;
+  padding: 0 15px;
+  font-weight: 600;
 }
 
 .testimonial .p_img {
-	width: 80px;
-	border-radius: 50%;
+  width: 80px;
+  border-radius: 50%;
 }
 
 .mid-icons {
-	font-size: 70px;
+  font-size: 70px;
 }
 
 .overlay-txt {
-	/*border: 2px solid black;*/
-	letter-spacing: 1px;
-	position: relative;
-	left: 3em;
-	bottom: 6em;
-	color: black;
-	max-width: 30em;
-	background: rgba(255,255,255,0.5);
-	line-height: 10px;
+  /*border: 2px solid black;*/
+  letter-spacing: 1px;
+  position: relative;
+  left: 3em;
+  bottom: 6em;
+  color: black;
+  max-width: 30em;
+  background: rgba(255, 255, 255, 0.5);
+  line-height: 10px;
 }
 
 .quote::before {
-	content: open-quote;
-	font-size: 3em;
-	transform: rotate(180deg);
-	position: absolute;
-	left: -0.5em;
-	top: -0.6em;
-}	
+  content: open-quote;
+  font-size: 3em;
+  transform: rotate(180deg);
+  position: absolute;
+  left: -0.5em;
+  top: -0.6em;
+}
 
-.contact-txt  {	
-	line-height: 1.7;
-    font-size: 1rem;
-    color: #999;
+.contact-txt {
+  line-height: 1.7;
+  font-size: 1rem;
+  color: #999;
 }
 
 .send_msg {
-	background-color: #434ba4;
-    border-color: #434ba4;
+  background-color: #434ba4;
+  border-color: #434ba4;
 }
-.footer-column .footer-list{
-	list-style : none;
+.footer-column .footer-list {
+  list-style: none;
 }
 .footer-column .footer-link,
 .footer-column .footer-link:active,
-.footer-column .footer-link:hover{
-	color : black;
-	text-decoration : none;
+.footer-column .footer-link:hover {
+  color: black;
+  text-decoration: none;
 }
 
-.gallery .gallery-image{
-	height : 15em;
-	width : 100%;
-	transition : 0.5s ease;
-	backface-visiblity: hidden;
+.gallery .gallery-image {
+  height: 15em;
+  width: 100%;
+  transition: 0.5s ease;
+  backface-visiblity: hidden;
 }
 .gallery-col .overlay {
-	transition: .5s ease;
-  	background-color : black;
-  	position : absolute;
-  	top : 0%;
-  	bottom : 0%;
-  	left: 8px;
-  	right : 8px;
-  	opacity: 0;
-  	text-align: center;
+  transition: 0.5s ease;
+  background-color: black;
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 8px;
+  right: 8px;
+  opacity: 0;
+  text-align: center;
 }
-.gallery-col .text{
-	opacity : 0;
-  	position: absolute;
-  	top: 50%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	-ms-transform: translate(-50%, -50%);
+.gallery-col .text {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
-.gallery-col:hover .gallery-image{
-	opacity : 0.3;
-	filter : blur(3px);
+.gallery-col:hover .gallery-image {
+  opacity: 0.3;
+  filter: blur(3px);
 }
 .gallery-col:hover .overlay {
-	background-color: black;
-  	opacity: 0.3;
-	filter : blur(2px);
+  background-color: black;
+  opacity: 0.3;
+  filter: blur(2px);
 }
-.gallery-col:hover .text{
-	opacity: 1;
-	color : white;
+.gallery-col:hover .text {
+  opacity: 1;
+  color: white;
 }
 .send_msg:hover {
-	background-color: #39408d;
-    border-color: #39408d;
+  background-color: #39408d;
+  border-color: #39408d;
 }
