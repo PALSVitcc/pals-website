@@ -1,38 +1,27 @@
 * {
 	line-height: 1.7;
 	font-family: roboto mono,monospace;
-	
 }
-
-.nav-item {
-	padding: 1em;
-}
-
 .nav-item .p_link {
 	font-size: 20px;
 	letter-spacing: 0.05em;
 }
-
 .contt {
 	display: flex;
 	color: #999;
 }
-
 .contt_info {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	font-family: roboto mono,monospace;
 }
-
 .contt_info > .text {
 	line-height: 1.7;
     font-weight: 600;
     font-size: 1rem;
     color: #999;
-    
 }
-
 .contact {
 	font-family: roboto mono,monospace;
 }
@@ -40,28 +29,18 @@
 	font-size: 50px;
 	font-family: 'Oswald', sans-serif;
 }
-
 .contact p {
 	
 	line-height: 1.7;
     font-size: 1rem;
     color: #999;
 }
-
 .send_msg {
 	background-color: #434ba4;
     border-color: #434ba4;
 }
-
-.desig {
-	margin-bottom: 1rem;
-}
-.footer{
-	padding-top : 3em;
-}
 .footer-column .footer-list{
 	list-style : none;
-	padding-left : 0;
 }
 .footer-column .footer-link,
 .footer-column .footer-link:active,
