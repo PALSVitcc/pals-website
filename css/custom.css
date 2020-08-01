@@ -1,9 +1,7 @@
 * {
 	line-height: 1.7;
-}
-
-.container {
-	margin-bottom: 30px;
+	font-family: roboto mono,monospace;
+	
 }
 
 .nav-item {
@@ -18,7 +16,6 @@
 .contt {
 	display: flex;
 	color: #999;
-	padding: 2em 1em;
 }
 
 .contt_info {
@@ -26,42 +23,17 @@
 	flex-direction: column;
 	justify-content: center;
 	font-family: roboto mono,monospace;
-	padding: 40px;
-}
-
-.heading {
-	margin-bottom: 30px;
 }
 
 .contt_info > .text {
 	line-height: 1.7;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 1rem;
     color: #999;
-    margin-bottom: 20px;
     
 }
 
-.testimonial {
-	padding: 0 15px;
-	font-family: roboto mono,monospace;
-}
-
-.testimonial .p_img {
-	width: 80px;
-	border-radius: 50%;
-	margin-bottom: 30px;
-}
-
-.desig {
-	margin-bottom: 1rem;
-}
-.tt {
-	margin-bottom: 30px;
-}
 .contact {
-	margin-top: 60px;
-	padding-left: 0;
 	font-family: roboto mono,monospace;
 }
 .c_heading {
@@ -74,7 +46,6 @@
 	line-height: 1.7;
     font-size: 1rem;
     color: #999;
-    margin-bottom: 20px;
 }
 
 .send_msg {
