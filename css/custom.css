@@ -114,21 +114,27 @@
   background-color: #434ba4;
   border-color: #434ba4;
 }
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  min-height: 40vh;
+}
+
 .footer-column .footer-list {
   list-style: none;
 }
 .footer-column .footer-link,
 .footer-column .footer-link:active,
 .footer-column .footer-link:hover {
-  color: black;
+  color: #fff;
   text-decoration: none;
 }
 
 .gallery .gallery-image {
-  height: 15em;
+  height: auto;
   width: 100%;
   transition: 0.5s ease;
-  backface-visiblity: hidden;
 }
 .gallery-col .overlay {
   transition: 0.5s ease;
