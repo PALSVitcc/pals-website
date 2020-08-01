@@ -1,7 +1,28 @@
+@media (max-width: 768px) {
+	.overlay-txt {
+		width: 15em;
+	}
+	.quote {
+		font-size: 2em;
+	}
+}
+
 * {
 	line-height: 1.7;
+}
+
+.ft-head {
+	font-family: Oswald,sans-serif;
+}
+
+.ft-body {
 	font-family: roboto mono,monospace;
 }
+
+.heading {
+	letter-spacing: 0.05em;
+}
+
 .nav-item .p_link {
 	font-size: 20px;
 	letter-spacing: 0.05em;
@@ -14,27 +35,82 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	font-family: roboto mono,monospace;
 }
+
+.desig .ft-body {
+	font-weight: 900;
+}
+
+.contt_info .ft-body {
+	font-weight: 900;
+}
+
+.big-img {
+	border: 1px solid black;
+	height: 70vh;
+	width: 100%;
+	margin: 6em auto;
+	background-color: rgba(1,1,1,0.1);
+}
+
+.mid-head {
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+.mid-txt {
+	font-weight: 600;
+}
+
 .contt_info > .text {
 	line-height: 1.7;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 1rem;
     color: #999;
 }
-.contact {
-	font-family: roboto mono,monospace;
+
+
+.testimonial {
+	padding: 0 15px;
+	font-weight: 600;
 }
-.c_heading {
-	font-size: 50px;
-	font-family: 'Oswald', sans-serif;
+
+.testimonial .p_img {
+	width: 80px;
+	border-radius: 50%;
 }
-.contact p {
-	
+
+.mid-icons {
+	font-size: 70px;
+}
+
+.overlay-txt {
+	/*border: 2px solid black;*/
+	letter-spacing: 1px;
+	position: relative;
+	left: 3em;
+	bottom: 6em;
+	color: black;
+	max-width: 30em;
+	background: rgba(255,255,255,0.5);
+	line-height: 10px;
+}
+
+.quote::before {
+	content: open-quote;
+	font-size: 3em;
+	transform: rotate(180deg);
+	position: absolute;
+	left: -0.5em;
+	top: -0.6em;
+}	
+
+.contact-txt  {	
 	line-height: 1.7;
     font-size: 1rem;
     color: #999;
 }
+
 .send_msg {
 	background-color: #434ba4;
     border-color: #434ba4;
@@ -48,14 +124,12 @@
 	color : black;
 	text-decoration : none;
 }
-.gallery{
-	align : center;
-}
+
 .gallery .gallery-image{
 	height : 15em;
 	width : 100%;
 	transition : 0.5s ease;
-	backface-visiblity : hidden;
+	backface-visiblity: hidden;
 }
 .gallery-col .overlay {
 	transition: .5s ease;
@@ -88,9 +162,6 @@
 .gallery-col:hover .text{
 	opacity: 1;
 	color : white;
-}
-.heading{
-	font-family : 'Oswald', sans-serif; 
 }
 .send_msg:hover {
 	background-color: #39408d;
