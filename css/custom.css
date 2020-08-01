@@ -1,18 +1,26 @@
 * {
 	line-height: 1.7;
 }
+
+.container {
+	margin-bottom: 30px;
+}
+
 .nav-item {
 	padding: 1em;
 }
+
 .nav-item .p_link {
 	font-size: 20px;
 	letter-spacing: 0.05em;
 }
+
 .contt {
 	display: flex;
 	color: #999;
 	padding: 2em 1em;
 }
+
 .contt_info {
 	display: flex;
 	flex-direction: column;
@@ -47,4 +55,34 @@
 
 .desig {
 	margin-bottom: 1rem;
+}
+.tt {
+	margin-bottom: 30px;
+}
+.contact {
+	margin-top: 60px;
+	padding-left: 0;
+	font-family: roboto mono,monospace;
+}
+.c_heading {
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.contact p {
+	
+	line-height: 1.7;
+    font-size: 1rem;
+    color: #999;
+    margin-bottom: 20px;
+}
+
+.send_msg {
+	background-color: #434ba4;
+    border-color: #434ba4;
+}
+
+.send_msg:hover {
+	background-color: #39408d;
+    border-color: #39408d;
 }
