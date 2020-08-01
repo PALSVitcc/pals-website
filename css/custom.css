@@ -1,48 +1,56 @@
 * {
 	line-height: 1.7;
+	font-family: roboto mono,monospace;
+	
 }
+
 .nav-item {
 	padding: 1em;
 }
+
 .nav-item .p_link {
 	font-size: 20px;
 	letter-spacing: 0.05em;
 }
+
 .contt {
 	display: flex;
 	color: #999;
-	padding: 2em 1em;
 }
+
 .contt_info {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	font-family: roboto mono,monospace;
-	padding: 40px;
-}
-
-.heading {
-	margin-bottom: 30px;
 }
 
 .contt_info > .text {
 	line-height: 1.7;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 1rem;
     color: #999;
-    margin-bottom: 20px;
     
 }
 
-.testimonial {
-	padding: 0 15px;
+.contact {
 	font-family: roboto mono,monospace;
 }
+.c_heading {
+	font-size: 50px;
+	font-family: 'Oswald', sans-serif;
+}
 
-.testimonial .p_img {
-	width: 80px;
-	border-radius: 50%;
-	margin-bottom: 30px;
+.contact p {
+	
+	line-height: 1.7;
+    font-size: 1rem;
+    color: #999;
+}
+
+.send_msg {
+	background-color: #434ba4;
+    border-color: #434ba4;
 }
 
 .desig {
@@ -104,4 +112,8 @@
 }
 .heading{
 	font : Oswald, sans-serif; 
+}
+.send_msg:hover {
+	background-color: #39408d;
+    border-color: #39408d;
 }
