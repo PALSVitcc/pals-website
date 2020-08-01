@@ -25,44 +25,53 @@
     />
     <link rel="stylesheet" href="css/Lightbox-Gallery.css" />
     <link rel="stylesheet" href="css/Navigation-Clean.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <link rel="stylesheet" href="css/custom.css" />
 
     <title>PALS</title>
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand p-2" href="/"
-        ><img src="images/logo.png" height="100" alt="PALS"
-      /></a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link p_link mx-2" href="">Home</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link p_link mx-2" href="">#</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link p_link mx-2" href="">Testimonials</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link p_link ml-2" href="">Gallery</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand p-2" href="/"
+          ><img src="images/logo.png" height="100" alt="PALS"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link p_link mx-2" href="#">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link p_link mx-2" href="">#</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link p_link mx-2" href="#testimonials"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link p_link ml-2" href="#gallery">Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
 
     <!--Content Starts-->
     <main>
@@ -85,7 +94,7 @@
         <div class="row">
           <div class="col-sm">
             <p class="text-center">
-              <i class="fas fa-address-book mid-icons"></i>
+              <i class="fa fa-address-book mid-icons"></i>
             </p>
             <h3 class="text-center mt-4 mb-1 ft-head">
               Random Heading
@@ -115,7 +124,7 @@
           </div>
           <div class="col-sm">
             <p class="text-center">
-              <i class="fas fa-address-book mid-icons"></i>
+              <i class="fa fa-address-book mid-icons"></i>
             </p>
             <h3 class="text-center mt-4 mb-1 ft-head">
               Random Heading
@@ -174,6 +183,58 @@
         </div>
       </div>
 
+      <div class="container" id="gallery">
+        <h2 class="p_heading">Gallery</h2>
+        <p class="text-left">
+          Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
+          Vestibulum nibh erat, pellentesque ut laoreet vitae.
+        </p>
+        <div class="photo-gallery">
+          <div class="row photos">
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/desk.jpg"
+                ><img class="img-fluid" src="images/desk.jpg"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/building.jpg"
+                ><img class="img-fluid" src="images/building.jpg"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/loft.jpg"
+                ><img class="img-fluid" src="images/loft.jpg"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/building.jpg"
+                ><img class="img-fluid" src="images/building.jpg"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/loft.jpg"
+                ><img class="img-fluid" src="images/loft.jpg"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/desk.jpg"
+                ><img class="img-fluid" src="images/desk.jpg"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/loft.jpg"
+                ><img class="img-fluid" src="images/loft.jpg"
+              /></a>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 item">
+              <a data-lightbox="photos" href="images/desk.jpg"
+                ><img class="img-fluid" src="images/desk.jpg"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div class="container py-5 mt-3" id="testimonials">
         <div class="row members">
           <div class="col-lg-4 col-12 p-3 testimonial ft-body">
@@ -223,48 +284,6 @@
               Temporibus possimus, aut veniam. Ut minus, possimus quisquam
               cupiditate magnam nisi pariatur..”
             </blockquote>
-          </div>
-        </div>
-      </div>
-      
-      <div class="container">
-        <h2 class="p_heading">Gallery</h2>
-        <p class="text-left">
-          Nunc luctus in metus eget fringilla. Aliquam sed justo ligula.
-          Vestibulum nibh erat, pellentesque ut laoreet vitae.
-        </p>
-        <div class="photo-gallery">
-          <div class="row photos">
-            <div class="col-sm-6 col-md-4 col-lg-3 item">
-              <a data-lightbox="photos" href="images/desk.jpg"
-                ><img class="img-fluid" src="images/desk.jpg"
-              /></a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 item">
-              <a data-lightbox="photos" href="images/building.jpg"
-                ><img class="img-fluid" src="images/building.jpg"
-              /></a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 item">
-              <a data-lightbox="photos" href="images/loft.jpg"
-                ><img class="img-fluid" src="images/loft.jpg"
-              /></a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 item">
-              <a data-lightbox="photos" href="images/building.jpg"
-                ><img class="img-fluid" src="images/building.jpg"
-              /></a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 item">
-              <a data-lightbox="photos" href="images/loft.jpg"
-                ><img class="img-fluid" src="images/loft.jpg"
-              /></a>
-            </div>
-            <div class="col-sm-6 col-md-4 col-lg-3 item">
-              <a data-lightbox="photos" href="images/desk.jpg"
-                ><img class="img-fluid" src="images/desk.jpg"
-              /></a>
-            </div>
           </div>
         </div>
       </div>
